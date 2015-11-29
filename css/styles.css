@@ -1,0 +1,71 @@
+/* start main nav */
+#main-nav{
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+}
+.help{
+  font-size: 1.5em;
+}
+.logo{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+}
+/* /nav */
+
+.title{
+  font-size: 4em;
+}
+
+/* start task */
+.inline{
+  height: 80px;
+  font-size: 30px;
+}
+.inline > button{
+  float: left;
+  height: 100%;
+  padding-top: 10px;
+}
+.inline > a{
+  float: left;
+  height: 100%;
+  color: #555;
+}
+/* /task */
+
+/* start tutorial */
+.tutorial{
+  font-size: 30px;
+}
+/* /tutorial */
+
+/* start task description */
+.description{
+  font-size: 30px;
+}
+.face-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.drop{
+  background-color: #eee;
+  border-radius: 50%;
+  border-bottom-right-radius: 0;
+  text-align: right;
+}
+.face{
+  border: 40px solid #eee;
+  border-radius: 50%;
+}
+.assigned-to{
+  margin-top: -30px;
+  margin-right: 15px;
+}
+.drop-name{
+  margin-top: -10px;
+  margin-right: 15px;
+}
+/* /description */
